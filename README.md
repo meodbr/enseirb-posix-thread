@@ -1,6 +1,6 @@
 # Custom POSIX Thread Library – ENSEIRB-MATMECA Student project
 
-Despite the complexity, our library achieved **performance superior to pthread and other teams’ implementations**
+Méo Desbois-Renaudin, Antoine l'Honoré, Melek Mkadem, Mathis Reinert, Inès Boukhars
 
 ## About this Project
 
@@ -13,6 +13,7 @@ Key functionnalities I personally did:
 - Completed a **Highly-precise scheduler** that balances CPU time across threads accurately thanks to the black-red tree, preemption, and priority parts.
 
 Despite the complexity, our library achieved **speed performance superior to POSIX standard lib** on most of the task given (thread creation, thread yielding, ect...). 
+
 ---
 
 ## Project Overview
