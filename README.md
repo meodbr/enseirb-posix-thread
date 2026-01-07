@@ -10,7 +10,7 @@ Key functionnalities I personally did:
 
 - Implemented a **Black-Red Tree entirely in C macros** to schedule threads dynamically (I now know doing it in macro wasn't that usefull for speed efficency)
 - Used **Time Stamp Counter (TSC) reading with inline assembly** for nanosecond-speed CPU time tracking, avoiding slower standard C functions (microsecond order) that rely on syscalls  
-- Completed a **Highly-precise scheduler** that balances CPU time across threads accurately thanks to the black-red tree, preemption, and priority parts.
+- Completed a **precise scheduler** that balances CPU time across threads accurately thanks to the black-red tree, preemption, and priority features.
 
 Despite the complexity, our library achieved **speed performance superior to POSIX standard lib** on most of the task given (thread creation, thread yielding, ect...). 
 
